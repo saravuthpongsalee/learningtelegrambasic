@@ -1,9 +1,9 @@
 // 🔐 ใส่ TOKEN ของบอท Telegram ของคุณที่ได้จาก @BotFather
-const TELEGRAM_TOKEN = '8138304707:AAGUCHJm7RHl0u4kIslGDzPw7zx4cj5JjEw';
+const TELEGRAM_TOKEN = '';
 const TELEGRAM_API_URL = `https://api.telegram.org/bot${TELEGRAM_TOKEN}`;
 
 // 🔗 ใส่ URL ของ Web App ที่ deploy แล้ว
-const WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbzBJ10k_Ggk7qCGg7nrOM6FHcbbNJ_OSeWHYiR14J6frGoB2W0xMc76TFXEOtJ1NnnV/exec';
+const WEBHOOK_URL = 'https://script.google.com/macros/s/xxxxx/exec';
 
 // 📨 ส่งข้อความไปยัง Telegram
 function sendMessageToTelegram(message, chatId) {
